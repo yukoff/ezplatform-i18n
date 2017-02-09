@@ -12,6 +12,12 @@
         <note>key: fielddefinition.allowed-content-types.any</note>
         <jms:reference-file line="251">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="becaad6a0d63182875b2bc7d21b0c6a801ba764f" resname="fielddefinition.default-layout.none">
+        <source>None</source>
+        <target xml:lang="hi" state="translated">कुछ भी नहीं</target>
+        <note>key: fielddefinition.default-layout.none</note>
+        <jms:reference-file line="264">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
