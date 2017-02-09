@@ -36,6 +36,20 @@
         <note>key: fielddefinition.default-value.current_datetime</note>
         <jms:reference-file line="73">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="5cdfd0738c76b8fe520f77e56b819fd3a781a514" resname="fielddefinition.default-value.current_datetime_adjust_by">
+        <source>Current datetime adjusted by</source>
+        <target xml:lang="hi" state="translated">आज की तारीक और समय बदलनेवाला</target>
+        <note>key: fielddefinition.default-value.current_datetime_adjust_by</note>
+        <jms:reference-file line="76">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="fa5a2f0bf185c7e872f77b81a24867afb9ef0ec7" resname="fielddefinition.default-value.empty">
+        <source>Empty</source>
+        <target xml:lang="hi" state="translated">खाली</target>
+        <note>key: fielddefinition.default-value.empty</note>
+        <jms:reference-file line="106">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+        <jms:reference-file line="71">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+        <jms:reference-file line="95">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
