@@ -47,6 +47,12 @@
         <note>key: content_type.default_availability.help</note>
         <jms:reference-file line="75">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="d14799b2ac8854ab3f0bb9976258c3db39213d09" resname="content_type.default_availability.value">
+        <source>{0} Not available|{1} Available</source>
+        <target xml:lang="fr" state="translated">{0} Non disponible {1} Disponible</target>
+        <note>key: content_type.default_availability.value</note>
+        <jms:reference-file line="77">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="5ebf6515da27060877064931a5ac1d5a8540e28d" resname="content_type.default_children_sorting" approved="yes">
         <source>Default property for sorting chilren</source>
         <target xml:lang="fr">Tri par défaut des sous-éléments</target>
@@ -161,6 +167,12 @@
         <target xml:lang="fr">Le groupe de type de contenu "%identifier%" a été correctement mis à jour.</target>
         <note>key: content_type.group.notification.updated</note>
         <jms:reference-file line="48">Form/Processor/ContentTypeGroupFormProcessor.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ac9f629a5395fbcbc31455777dafda7ef125b39e" resname="content_type.id">
+        <source>ID</source>
+        <target xml:lang="fr" state="translated">ID</target>
+        <note>key: content_type.id</note>
+        <jms:reference-file line="27">Resources/views/ContentType/view_content_type_group.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="238db0c5dee8ec13199b073f7cc78728f53ffa36" resname="content_type.identifier" approved="yes">
         <source>Identifier</source>
@@ -279,6 +291,15 @@
         <target xml:lang="fr" state="translated">Type</target>
         <note>key: field_definition.type</note>
         <jms:reference-file line="92">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="3e9deeb426f08a404990a6926d70558955272593" resname="yes_no">
+        <source>{0} No|{1} Yes</source>
+        <target xml:lang="fr" state="translated">{0} Non|{1} Oui</target>
+        <note>key: yes_no</note>
+        <jms:reference-file line="113">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+        <jms:reference-file line="117">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+        <jms:reference-file line="121">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+        <jms:reference-file line="60">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
     </body>
   </file>
