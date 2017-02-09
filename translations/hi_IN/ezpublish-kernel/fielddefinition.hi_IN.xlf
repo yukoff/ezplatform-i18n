@@ -18,6 +18,18 @@
         <note>key: fielddefinition.default-layout.none</note>
         <jms:reference-file line="264">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="eb0eeb83b3f40e1293f0edd593a8cce658d9f35d" resname="fielddefinition.default-value.checked">
+        <source>Checked</source>
+        <target xml:lang="hi" state="translated">चुना हुआ</target>
+        <note>key: fielddefinition.default-value.checked</note>
+        <jms:reference-file line="59">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="3410f38fd1f44cb841ec374c13daca04dcc5910b" resname="fielddefinition.default-value.current_date">
+        <source>Current date</source>
+        <target xml:lang="hi" state="translated">वर्तमान दिनांक</target>
+        <note>key: fielddefinition.default-value.current_date</note>
+        <jms:reference-file line="97">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
