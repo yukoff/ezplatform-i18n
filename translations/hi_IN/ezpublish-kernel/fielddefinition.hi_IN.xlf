@@ -30,6 +30,12 @@
         <note>key: fielddefinition.default-value.current_date</note>
         <jms:reference-file line="97">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="d3cda4b47dfae160f1e7f982570b8b544a494701" resname="fielddefinition.default-value.current_datetime">
+        <source>Current datetime</source>
+        <target xml:lang="hi" state="translated">आज की तारीक और समय</target>
+        <note>key: fielddefinition.default-value.current_datetime</note>
+        <jms:reference-file line="73">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
