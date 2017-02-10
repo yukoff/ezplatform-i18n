@@ -66,6 +66,12 @@
         <note>key: deleting.content</note>
         <jms:reference-file>Resources/public/js/views/services/ez-locationviewviewservice.js</jms:reference-file>
       </trans-unit>
+      <trans-unit id="fd0df2ab8df516f5a2900775c5f427ddb9012b77" resname="failed.sending.to.trash">
+        <source>An error occurred when sending '%contentName%' to Trash</source>
+        <target xml:lang="es-ES" state="translated">Ocurrió un error al enviar '%contentName%' a la papelera</target>
+        <note>key: failed.sending.to.trash</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-locationviewviewservice.js</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
