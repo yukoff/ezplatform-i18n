@@ -30,10 +30,22 @@
         <note>key: authorinput.remove</note>
         <jms:reference-file>Resources/public/templates/fields/edit/authorinput.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="e5070f4a7780feaac79ab807cd1546a70effb49d" resname="binaryfile.download">
+        <source>Download the file</source>
+        <target xml:lang="el" state="translated">Λήψη αρχείου</target>
+        <note>key: binaryfile.download</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/binaryfile.hbt</jms:reference-file>
+      </trans-unit>
       <trans-unit id="6368a200a5ca556ba56c6065d90cb55ccf4b3262" resname="binaryfile.empty">
         <source>No file yet.</source>
         <target xml:lang="el" state="translated">Κανένα αρχείο.</target>
         <note>key: binaryfile.empty</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/binaryfile.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="deb180f588060bb98b95d7df6d43b0d9d5278774" resname="binaryfile.name">
+        <source>File name:</source>
+        <target xml:lang="el" state="translated">Όνομα αρχείου:</target>
+        <note>key: binaryfile.name</note>
         <jms:reference-file>Resources/public/templates/fields/edit/binaryfile.hbt</jms:reference-file>
       </trans-unit>
       <trans-unit id="63b7d9eb28e23a7b075fd63567bb1c021b8f93d0" resname="binaryfile.or">
@@ -41,6 +53,36 @@
         <target xml:lang="el" state="translated">ή</target>
         <note>key: binaryfile.or</note>
         <jms:reference-file>Resources/public/templates/fields/edit/binaryfile.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="09251818f4f6aabd8f9c9e3caddd0e52a4e94f53" resname="binaryfile.remove">
+        <source>Remove this file</source>
+        <target xml:lang="el" state="translated">Κατάργηση αρχείου</target>
+        <note>key: binaryfile.remove</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/binaryfile.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="43102016be1b21e84fd962003da92c48bc434ad3" resname="binaryfile.size">
+        <source>File size:</source>
+        <target xml:lang="el" state="translated">Μέγεθος αρχείου:</target>
+        <note>key: binaryfile.size</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/binaryfile.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="012ca0baa21f8d816f95de486b4da746ed42f845" resname="binaryfile.type">
+        <source>Type:</source>
+        <target xml:lang="el" state="translated">Τύπος:</target>
+        <note>key: binaryfile.type</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/binaryfile.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="81e49b2ea1382af92570ae58ccb754535b55b224" resname="date.calendar">
+        <source>Calendar</source>
+        <target xml:lang="el" state="translated">Ημερολόγιο</target>
+        <note>key: date.calendar</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/date.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ac8b6151c30254609f6e9f2a7ab5c5570ea94dcd" resname="date.required">
+        <source>Date is required</source>
+        <target xml:lang="el" state="translated">Η ημερομηνία είναι υποχρεωτική</target>
+        <note>key: date.required</note>
+        <jms:reference-file>Resources/public/js/views/fields/ez-dateandtime-editview.js</jms:reference-file>
       </trans-unit>
     </body>
   </file>
