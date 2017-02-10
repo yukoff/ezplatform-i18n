@@ -60,6 +60,12 @@
         <note>key: universaldiscovery.creation.date</note>
         <jms:reference-file>Resources/public/templates/universaldiscovery/selected.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="75c9a01263a787fb0956c3776f25565f1aca5fee" resname="universaldiscovery.first">
+        <source>First</source>
+        <target xml:lang="es-ES" state="translated">Primero</target>
+        <note>key: universaldiscovery.first</note>
+        <jms:reference-file>Resources/public/templates/universaldiscovery/search.hbt</jms:reference-file>
+      </trans-unit>
       <trans-unit id="b191a7509309ed153691a5ea5a97d2dd2bcfd88d" resname="universaldiscovery.last.modified">
         <source>Last Modified</source>
         <target xml:lang="es-ES" state="translated">Última modificación</target>
