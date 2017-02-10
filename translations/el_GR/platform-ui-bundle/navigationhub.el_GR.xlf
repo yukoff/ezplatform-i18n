@@ -36,6 +36,12 @@
         <note>key: navigationhub.dashboard.title</note>
         <jms:reference-file>Resources/public/js/views/services/ez-navigationhubviewservice.js</jms:reference-file>
       </trans-unit>
+      <trans-unit id="6a7e8372aebbd558cab8c19c5caecc1deee66024" resname="navigationhub.language.list">
+        <source>Languages</source>
+        <target xml:lang="el" state="translated">Γλώσσες</target>
+        <note>key: navigationhub.language.list</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-navigationhubviewservice.js</jms:reference-file>
+      </trans-unit>
       <trans-unit id="b3ae3658840e3e375d5c88eb4abc96f3efe0ade8" resname="navigationhub.logo.ez">
         <source>Logo eZ</source>
         <target xml:lang="el" state="translated">Λογότυπο eZ</target>
