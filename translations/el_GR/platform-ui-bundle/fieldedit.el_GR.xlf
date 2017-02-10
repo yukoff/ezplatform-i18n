@@ -84,6 +84,30 @@
         <note>key: date.required</note>
         <jms:reference-file>Resources/public/js/views/fields/ez-dateandtime-editview.js</jms:reference-file>
       </trans-unit>
+      <trans-unit id="623d52cead77075eabf73bd844f1870264264f8e" resname="image.name">
+        <source>File name</source>
+        <target xml:lang="el" state="translated">Όνομα αρχείου</target>
+        <note>key: image.name</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/image.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ddb2b77067d29961704d011d303b42d5fcc00e5c" resname="image.or">
+        <source>or</source>
+        <target xml:lang="el" state="translated">ή</target>
+        <note>key: image.or</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/image.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="689cae8350541efc2cad64f32e6d1a9512845b05" resname="image.thumbnail.retry">
+        <source>Retry</source>
+        <target xml:lang="el" state="translated">Επανάληψη</target>
+        <note>key: image.thumbnail.retry</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/image.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="1fa08ff0c1b3b004705e4fc4884f7c0cf631465a" resname="image.type">
+        <source>Type:</source>
+        <target xml:lang="el" state="translated">Τύπος:</target>
+        <note>key: image.type</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/image.hbt</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
