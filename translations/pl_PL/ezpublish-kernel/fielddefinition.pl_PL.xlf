@@ -6,6 +6,36 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
+      <trans-unit id="eb0eeb83b3f40e1293f0edd593a8cce658d9f35d" resname="fielddefinition.default-value.checked">
+        <source>Checked</source>
+        <target xml:lang="pl" state="translated">Zaznaczone</target>
+        <note>key: fielddefinition.default-value.checked</note>
+        <jms:reference-file line="59">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="3410f38fd1f44cb841ec374c13daca04dcc5910b" resname="fielddefinition.default-value.current_date">
+        <source>Current date</source>
+        <target xml:lang="pl" state="translated">Bieżąca data</target>
+        <note>key: fielddefinition.default-value.current_date</note>
+        <jms:reference-file line="97">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d3cda4b47dfae160f1e7f982570b8b544a494701" resname="fielddefinition.default-value.current_datetime">
+        <source>Current datetime</source>
+        <target xml:lang="pl" state="translated">Bieżące data i czas</target>
+        <note>key: fielddefinition.default-value.current_datetime</note>
+        <jms:reference-file line="73">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5cdfd0738c76b8fe520f77e56b819fd3a781a514" resname="fielddefinition.default-value.current_datetime_adjust_by">
+        <source>Current datetime adjusted by</source>
+        <target xml:lang="pl" state="translated">Bieżące data i czas zmienione o</target>
+        <note>key: fielddefinition.default-value.current_datetime_adjust_by</note>
+        <jms:reference-file line="76">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="baf973c669d404a5aa072edce1d84deaaf936a0f" resname="fielddefinition.default-value.current_time">
+        <source>Current time</source>
+        <target xml:lang="pl" state="translated">Bieżący czas</target>
+        <note>key: fielddefinition.default-value.current_time</note>
+        <jms:reference-file line="108">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="fa5a2f0bf185c7e872f77b81a24867afb9ef0ec7" resname="fielddefinition.default-value.empty">
         <source>Empty</source>
         <target xml:lang="pl" state="translated">Puste</target>
@@ -164,6 +194,12 @@
         <target xml:lang="pl" state="translated">{0} Nie|{1} Tak</target>
         <note>key: fielddefinition.multiple.yes_no</note>
         <jms:reference-file line="374">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4d59776118124c81734aacab8a71198ee555479c" resname="fielddefinition.options.label">
+        <source>Defined options</source>
+        <target xml:lang="pl" state="translated">Zdefiniowane opcje</target>
+        <note>key: fielddefinition.options.label</note>
+        <jms:reference-file line="143">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="030aa959f56ae9ba0e1d84a99606995a02c5bd97" resname="fielddefinition.preferred-rows-number.label">
         <source>Preferred number of rows:</source>
