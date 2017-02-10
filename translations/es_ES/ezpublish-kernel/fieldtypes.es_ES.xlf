@@ -46,6 +46,11 @@
         <target xml:lang="es-ES" state="translated">Imagen</target>
         <note>key: ezimage.name</note>
       </trans-unit>
+      <trans-unit id="b55e4568224820cbddc794f6c2bd002baec6a5d0" resname="ezisbn.name">
+        <source>ISBN</source>
+        <target xml:lang="es-ES" state="translated">ISBN</target>
+        <note>key: ezisbn.name</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
