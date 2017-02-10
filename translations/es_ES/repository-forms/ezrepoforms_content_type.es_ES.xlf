@@ -120,6 +120,36 @@
         <note>key: field_definition.ezdate.default_type</note>
         <jms:reference-file line="34">lib/FieldType/Mapper/DateFormMapper.php</jms:reference-file>
       </trans-unit>
+      <trans-unit id="eb97ae8058956f1babf75555dbdba76c8e409bf1" resname="field_definition.ezdate.default_type_current">
+        <source>Current date</source>
+        <target xml:lang="es-ES" state="translated">Fecha actual</target>
+        <note>key: field_definition.ezdate.default_type_current</note>
+        <jms:reference-file line="28">lib/FieldType/Mapper/DateFormMapper.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="df532a4ad5878fd0bc3f7842fb6907078efe76f9" resname="field_definition.ezdate.default_type_empty">
+        <source>Empty</source>
+        <target xml:lang="es-ES" state="translated">Vacio</target>
+        <note>key: field_definition.ezdate.default_type_empty</note>
+        <jms:reference-file line="27">lib/FieldType/Mapper/DateFormMapper.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a8eb20f50022f5aa6c623f3f870297f2ee034606" resname="field_definition.ezfloat.min_value">
+        <source>Minimum value</source>
+        <target xml:lang="es-ES" state="translated">Valor mínimo</target>
+        <note>key: field_definition.ezfloat.min_value</note>
+        <jms:reference-file line="26">lib/FieldType/Mapper/FloatFormMapper.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5b275c762831def3c6ea393e3e0c25762e0844b3" resname="field_definition.ezimage.max_file_size">
+        <source>Maximum file size (byte)</source>
+        <target xml:lang="es-ES" state="translated">Tamaño máximo de archivo (bytes)</target>
+        <note>key: field_definition.ezimage.max_file_size</note>
+        <jms:reference-file line="25">lib/FieldType/Mapper/ImageFormMapper.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="461c05cd80b29eb37dc4f7e1f9e1d2454b380332" resname="field_definition.ezisbn.is_isbn13">
+        <source>ISBN-13 format</source>
+        <target xml:lang="es-ES" state="translated">Formato ISBN-13</target>
+        <note>key: field_definition.ezisbn.is_isbn13</note>
+        <jms:reference-file line="26">lib/FieldType/Mapper/ISBNFormMapper.php</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
