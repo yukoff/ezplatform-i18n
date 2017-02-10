@@ -67,6 +67,18 @@
         <note>key: error.saving.draft</note>
         <jms:reference-file>Resources/public/js/views/services/plugins/ez-savedraftplugin.js</jms:reference-file>
       </trans-unit>
+      <trans-unit id="5e2fb0c2c59448e1dec5df0f70ec85fcad1ca7b6" resname="publish">
+        <source>Publish</source>
+        <target xml:lang="es-ES" state="translated">Publicar</target>
+        <note>key: publish</note>
+        <jms:reference-file>Resources/public/js/views/ez-editactionbarview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="13a4a11319d31c1b323d5774f44240a9ffc984d0" resname="save">
+        <source>Save</source>
+        <target xml:lang="es-ES" state="translated">Guardar</target>
+        <note>key: save</note>
+        <jms:reference-file>Resources/public/js/views/ez-editactionbarview.js</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
