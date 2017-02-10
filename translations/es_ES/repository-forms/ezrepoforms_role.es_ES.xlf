@@ -78,6 +78,18 @@
         <note>key: role.policy.save</note>
         <jms:reference-file line="98">lib/Form/Type/Role/PolicyType.php</jms:reference-file>
       </trans-unit>
+      <trans-unit id="d3c70d265ab037db5ade02a8b738b5981353c7ac" resname="role.policy.type">
+        <source>Policy type</source>
+        <target xml:lang="es-ES" state="translated">Tipo de politica</target>
+        <note>key: role.policy.type</note>
+        <jms:reference-file line="94">lib/Form/Type/Role/PolicyType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ca6964415cb051927cf1d4092e4a6f49de0748c0" resname="role.policy.type.choose">
+        <source>Choose a combination of module/function</source>
+        <target xml:lang="es-ES" state="translated">Elija una combinación modulo/función</target>
+        <note>key: role.policy.type.choose</note>
+        <jms:reference-file line="95">lib/Form/Type/Role/PolicyType.php</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
