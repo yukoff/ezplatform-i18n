@@ -78,6 +78,17 @@
         <note>key: language.id.label</note>
         <jms:reference-file line="35">Resources/views/Language/view.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="ec0418b84a04e7ba4b75a65cbd8a395144e8d8e8" resname="language.list">
+        <source>Languages</source>
+        <target xml:lang="es-ES" state="translated">Idiomas</target>
+        <note>key: language.list</note>
+        <jms:reference-file line="13">Resources/views/Dashboard/dashboard.html.twig</jms:reference-file>
+        <jms:reference-file line="14">Resources/views/Language/edit.html.twig</jms:reference-file>
+        <jms:reference-file line="12">Resources/views/Language/list.html.twig</jms:reference-file>
+        <jms:reference-file line="18">Resources/views/Language/list.html.twig</jms:reference-file>
+        <jms:reference-file line="80">Resources/views/Language/list.html.twig</jms:reference-file>
+        <jms:reference-file line="8">Resources/views/Language/view.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="c0ccfb7e7bc6d434ca93e998637fe775ba4a2de0" resname="language.name">
         <source>Language name</source>
         <target xml:lang="es-ES" state="translated">Nombre del idioma</target>
