@@ -72,6 +72,24 @@
         <note>key: content_type.is_container</note>
         <jms:reference-file line="89">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
       </trans-unit>
+      <trans-unit id="49e5f320e6e37cbd53a5d290e3ffd48788226852" resname="content_type.publish">
+        <source>OK</source>
+        <target xml:lang="es-ES" state="translated">OK</target>
+        <note>key: content_type.publish</note>
+        <jms:reference-file line="132">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="946ba9e49beabdacd143e10e343f852736c081d8" resname="content_type.save">
+        <source>Apply</source>
+        <target xml:lang="es-ES" state="translated">Aplicar</target>
+        <note>key: content_type.save</note>
+        <jms:reference-file line="130">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4cdfd30bdc30f263b30713d22f714ad46beb120b" resname="content_type.sort_field.2">
+        <source>Publication date</source>
+        <target xml:lang="es-ES" state="translated">Fecha de publicación</target>
+        <note>key: content_type.sort_field.2</note>
+        <jms:reference-file>eZ\Publish\API\Repository\Values\Content\Location</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
