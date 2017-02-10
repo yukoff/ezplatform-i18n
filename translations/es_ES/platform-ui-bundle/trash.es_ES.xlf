@@ -54,6 +54,12 @@
         <note>key: restore.selected</note>
         <jms:reference-file>Resources/public/js/views/ez-trashbarview.js</jms:reference-file>
       </trans-unit>
+      <trans-unit id="7883128cdfb813826271abe90b3a1f3190833ce6" resname="trash.empty">
+        <source>The trash is empty</source>
+        <target xml:lang="es-ES" state="translated">La papelera está vacía</target>
+        <note>key: trash.empty</note>
+        <jms:reference-file>Resources/public/templates/trash.hbt</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
