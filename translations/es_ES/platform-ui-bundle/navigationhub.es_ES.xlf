@@ -72,6 +72,12 @@
         <note>key: navigationhub.system.information</note>
         <jms:reference-file>Resources/public/js/views/services/ez-navigationhubviewservice.js</jms:reference-file>
       </trans-unit>
+      <trans-unit id="5bf12850a3a99f7bbd51deb7c695c07e39bcbf0e" resname="navigationhub.user.list">
+        <source>Users</source>
+        <target xml:lang="es-ES" state="translated">Usuarios</target>
+        <note>key: navigationhub.user.list</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-navigationhubviewservice.js</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
