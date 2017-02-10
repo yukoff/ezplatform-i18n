@@ -72,6 +72,12 @@
         <note>key: discoverybar.minimize</note>
         <jms:reference-file>Resources/public/js/views/ez-discoverybarview.js</jms:reference-file>
       </trans-unit>
+      <trans-unit id="55ba03a687a73559ef8a2d4e1ff935b47ddc5859" resname="discoverybar.search">
+        <source>Search</source>
+        <target xml:lang="es-ES" state="translated">Buscar</target>
+        <note>key: discoverybar.search</note>
+        <jms:reference-file>Resources/public/js/views/ez-discoverybarview.js</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
