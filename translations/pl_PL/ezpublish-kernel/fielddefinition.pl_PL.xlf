@@ -39,6 +39,24 @@
         <note>key: fielddefinition.isbn.label</note>
         <jms:reference-file line="380">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="c963dbac20e5526d70d08b17ebffdaaf44e1c2c3" resname="fielddefinition.max-length.label">
+        <source>Max string length:</source>
+        <target xml:lang="pl" state="translated">Maksymalna długość ciągu znaków:</target>
+        <note>key: fielddefinition.max-length.label</note>
+        <jms:reference-file line="15">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c8c3fa9b71c848069950539011a09b45abb1c11f" resname="fielddefinition.max-length.undefined">
+        <source>No defined maximum string length</source>
+        <target xml:lang="pl" state="translated">Nie określono maksymalnej długości ciągu znaków</target>
+        <note>key: fielddefinition.max-length.undefined</note>
+        <jms:reference-file line="20">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9a3d23487e45edf331407c501ead33d70461f9e3" resname="fielddefinition.max-length.value">
+        <source>%max% characters</source>
+        <target xml:lang="pl" state="translated">%max% znaków</target>
+        <note>key: fielddefinition.max-length.value</note>
+        <jms:reference-file line="18">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="11e7b0a01edea69919ea6191acdbd5ad7c2bf279" resname="fielddefinition.max-value.label">
         <source>Maximum value:</source>
         <target xml:lang="pl" state="translated">Wartość maksymalna:</target>
@@ -62,6 +80,12 @@
         <target xml:lang="pl" state="translated">Nie określono rozmiaru maksymalnego</target>
         <note>key: fielddefinition.maximum-file-size.undefined</note>
         <jms:reference-file line="300">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="3e08813722e7959e982f4d8624c98b83d077cd55" resname="fielddefinition.maximum-file-size.value">
+        <source>%max% MB</source>
+        <target xml:lang="pl" state="translated">%max% MB</target>
+        <note>key: fielddefinition.maximum-file-size.value</note>
+        <jms:reference-file line="298">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="b9bb83913e23ad5a59eb7485ca48386bd7fce66e" resname="fielddefinition.media-player-type.flash">
         <source>Flash</source>
@@ -135,6 +159,43 @@
         <note>key: fielddefinition.multiple.label</note>
         <jms:reference-file line="373">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="77c3603526e153eea2b11a851601dabd3bfdbd9a" resname="fielddefinition.multiple.yes_no">
+        <source>{0} No|{1} Yes</source>
+        <target xml:lang="pl" state="translated">{0} Nie|{1} Tak</target>
+        <note>key: fielddefinition.multiple.yes_no</note>
+        <jms:reference-file line="374">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="030aa959f56ae9ba0e1d84a99606995a02c5bd97" resname="fielddefinition.preferred-rows-number.label">
+        <source>Preferred number of rows:</source>
+        <target xml:lang="pl" state="translated">Preferowana liczba wierszy:</target>
+        <note>key: fielddefinition.preferred-rows-number.label</note>
+        <jms:reference-file line="308">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f552c76a800b38e41d8b16afa53d3d22d3b37692" resname="fielddefinition.preferred-rows-number.undefined">
+        <source>No preferred number of rows</source>
+        <target xml:lang="pl" state="translated">Brak preferowanej liczby wierszy</target>
+        <note>key: fielddefinition.preferred-rows-number.undefined</note>
+        <jms:reference-file line="313">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ac0aff5c558fb078621da0f46b2ae5b0e04afcaa" resname="fielddefinition.preferred-rows-number.value">
+        <source>%rows% rows</source>
+        <target xml:lang="pl" state="translated">%rows% wierszy</target>
+        <note>key: fielddefinition.preferred-rows-number.value</note>
+        <jms:reference-file line="311">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b21527196a76acac750d478bfe8137cae7aff914" resname="fielddefinition.selection-method.browse">
+        <source>Browse</source>
+        <target xml:lang="pl" state="translated">Przeglądanie</target>
+        <note>key: fielddefinition.selection-method.browse</note>
+        <jms:reference-file line="205">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+        <jms:reference-file line="224">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="02c78e1886bdf844e359ddd54b190eb718286557" resname="fielddefinition.selection-method.checkbox">
+        <source>List with checkboxes</source>
+        <target xml:lang="pl" state="translated">Lista z polami wyboru</target>
+        <note>key: fielddefinition.selection-method.checkbox</note>
+        <jms:reference-file line="230">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="a60c81e556aa14c00b3b44ffb6e49f90b882c286" resname="fielddefinition.selection-method.label">
         <source>Selection method:</source>
         <target xml:lang="pl" state="translated">Metoda wyboru:</target>
@@ -142,12 +203,50 @@
         <jms:reference-file line="202">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
         <jms:reference-file line="221">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="cd94d6146477b427bdc6dbbe19be20bd6db31542" resname="fielddefinition.selection-method.list">
+        <source>Drop-down list</source>
+        <target xml:lang="pl" state="translated">Lista rozwijana</target>
+        <note>key: fielddefinition.selection-method.list</note>
+        <jms:reference-file line="207">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+        <jms:reference-file line="226">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="60f06115f038572328285e2ca1fc5ad811105c49" resname="fielddefinition.selection-method.radio">
+        <source>List with radio buttons</source>
+        <target xml:lang="pl" state="translated">Lista z polami opcji</target>
+        <note>key: fielddefinition.selection-method.radio</note>
+        <jms:reference-file line="228">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e0b6bc6950269d05c7318553912abe4042d6a423" resname="fielddefinition.selection-method.tree">
+        <source>Drop-down tree</source>
+        <target xml:lang="pl" state="translated">Rozwijane drzewo</target>
+        <note>key: fielddefinition.selection-method.tree</note>
+        <jms:reference-file line="209">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ccf4d68283a388e6a965caf9e507c6a39fffc46f" resname="fielddefinition.selection-root.label">
+        <source>Selection root:</source>
+        <target xml:lang="pl" state="translated">Lokalizacja wyjściowa:</target>
+        <note>key: fielddefinition.selection-root.label</note>
+        <jms:reference-file line="321">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c7b711d3eb6c197d83e064f309bd2e9791a0950d" resname="fielddefinition.selection-root.undefined">
+        <source>No defined root</source>
+        <target xml:lang="pl" state="translated">Nie wybrano lokalizacji wyjściowej</target>
+        <note>key: fielddefinition.selection-root.undefined</note>
+        <jms:reference-file line="326">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="4c9eb21a084528340d7944eeb0ffe525fc5e5e75" resname="fielddefinition.use-seconds.label">
         <source>Use seconds:</source>
         <target xml:lang="pl" state="translated">Używaj sekund:</target>
         <note>key: fielddefinition.use-seconds.label</note>
         <jms:reference-file line="112">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
         <jms:reference-file line="86">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f875a84fc9f3c1e0610a90197722f04b9442fa01" resname="fielddefinition.use-seconds.yes_no">
+        <source>{0} No|{1} Yes</source>
+        <target xml:lang="pl" state="translated">{0} Nie|{1} Tak</target>
+        <note>key: fielddefinition.use-seconds.yes_no</note>
+        <jms:reference-file line="113">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+        <jms:reference-file line="87">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
     </body>
   </file>
