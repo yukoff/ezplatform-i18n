@@ -49,6 +49,12 @@
         <note>key: Argument '%argumentName%' is invalid: expected value to be of type '%expectedType%', got '%actualType%'</note>
         <jms:reference-file line="33">eZ/Publish/Core/Base/Exceptions/InvalidArgumentType.php</jms:reference-file>
       </trans-unit>
+      <trans-unit id="577ff380f946adc384c1ca853ac1e7c21a0cba41" resname="Empty content type draft cannot be published">
+        <source>Empty content type draft cannot be published</source>
+        <target xml:lang="es-ES" state="translated">No se pudo publicar un borrador vacío</target>
+        <note>key: Empty content type draft cannot be published</note>
+        <jms:reference-file line="708">eZ/Publish/Core/REST/Server/Controller/ContentType.php</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
