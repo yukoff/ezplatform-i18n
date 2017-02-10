@@ -24,6 +24,18 @@
         <note>key: fielddefinition.default-layout.label</note>
         <jms:reference-file line="263">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="becaad6a0d63182875b2bc7d21b0c6a801ba764f" resname="fielddefinition.default-layout.none">
+        <source>None</source>
+        <target xml:lang="el" state="translated">Κανένα</target>
+        <note>key: fielddefinition.default-layout.none</note>
+        <jms:reference-file line="264">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="eb0eeb83b3f40e1293f0edd593a8cce658d9f35d" resname="fielddefinition.default-value.checked">
+        <source>Checked</source>
+        <target xml:lang="el" state="translated">Επιλεγμένο</target>
+        <note>key: fielddefinition.default-value.checked</note>
+        <jms:reference-file line="59">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
