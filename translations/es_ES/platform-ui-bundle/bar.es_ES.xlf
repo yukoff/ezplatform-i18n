@@ -90,6 +90,12 @@
         <note>key: error.hiding.location</note>
         <jms:reference-file>Resources/public/js/views/services/plugins/ez-visibilityswitcherplugin.js</jms:reference-file>
       </trans-unit>
+      <trans-unit id="45be10e0189e80b08256567362b3f8668b2c4965" resname="translateaction.edit">
+        <source>Edit</source>
+        <target xml:lang="es-ES" state="translated">Editar</target>
+        <note>key: translateaction.edit</note>
+        <jms:reference-file>Resources/public/templates/translateaction.hbt</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
