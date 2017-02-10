@@ -94,6 +94,24 @@
         <note>key: link.to</note>
         <jms:reference-file>Resources/public/js/alloyeditor/buttons/linkedit.js</jms:reference-file>
       </trans-unit>
+      <trans-unit id="38b62be4bddaa5661c7d6b8e36e28159314df5c7" resname="list">
+        <source>List</source>
+        <target xml:lang="es-ES" state="translated">Lista</target>
+        <note>key: list</note>
+        <jms:reference-file>Resources/public/js/alloyeditor/buttons/list.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d4fcd0ab161cf2389caeb1b3318ac72eb1437810" resname="open.in">
+        <source>Open in:</source>
+        <target xml:lang="es-ES" state="translated">Abrir en:</target>
+        <note>key: open.in</note>
+        <jms:reference-file>Resources/public/js/alloyeditor/buttons/linkedit.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c5ef10db9a6a48b85cd15ce1050f42933a4305ae" resname="remove.this.block">
+        <source>Remove this block</source>
+        <target xml:lang="es-ES" state="translated">Eliminar este bloque</target>
+        <note>key: remove.this.block</note>
+        <jms:reference-file>Resources/public/js/alloyeditor/buttons/blockremove.js</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
