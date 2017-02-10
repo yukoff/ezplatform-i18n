@@ -101,6 +101,24 @@
         <note>key: media.auto.play</note>
         <jms:reference-file>Resources/public/templates/fields/view/media.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="7097c3e879074d847c1d5bc6710b2fe4afa91171" resname="media.file.name">
+        <source>File name:</source>
+        <target xml:lang="es-ES" state="translated">Nombre de archivo:</target>
+        <note>key: media.file.name</note>
+        <jms:reference-file>Resources/public/templates/fields/view/media.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="48f89aa321f9917ee7d69855d638ccc06fbc08cb" resname="media.file.size">
+        <source>File size:</source>
+        <target xml:lang="es-ES" state="translated">Tamaño del archivo:</target>
+        <note>key: media.file.size</note>
+        <jms:reference-file>Resources/public/templates/fields/view/media.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f627fe6c0a96d227ca48a741cf697410a965414d" resname="media.unsupported.audio">
+        <source>Unsupported audio format</source>
+        <target xml:lang="es-ES" state="translated">Formato de audio no soportado</target>
+        <note>key: media.unsupported.audio</note>
+        <jms:reference-file>Resources/public/templates/fields/view/media.hbt</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
