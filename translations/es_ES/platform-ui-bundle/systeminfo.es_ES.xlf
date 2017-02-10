@@ -49,6 +49,12 @@
         <note>key: database.name</note>
         <jms:reference-file line="7">Resources/views/ez-support-tools/info/database.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="512e470f98391ba6e8140ef7a85e27c71af6e6bc" resname="database.username">
+        <source>Username</source>
+        <target xml:lang="es-ES" state="translated">Nombre de usuario</target>
+        <note>key: database.username</note>
+        <jms:reference-file line="11">Resources/views/ez-support-tools/info/database.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="07596f183f5e91b1778d5e47b2752b8d42aa763d" resname="disabled">
         <source>Disabled</source>
         <target xml:lang="es-ES" state="translated">Desactivado</target>
