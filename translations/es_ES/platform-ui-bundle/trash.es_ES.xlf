@@ -60,6 +60,12 @@
         <note>key: trash.empty</note>
         <jms:reference-file>Resources/public/templates/trash.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="9bedf5469883778a8aac2f2a0daaa7664704069b" resname="trash.header.name">
+        <source>Trash</source>
+        <target xml:lang="es-ES" state="translated">Papelera</target>
+        <note>key: trash.header.name</note>
+        <jms:reference-file>Resources/public/templates/trash.hbt</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
