@@ -96,6 +96,19 @@
         <note>key: date.required</note>
         <jms:reference-file>Resources/public/js/views/fields/ez-dateandtime-editview.js</jms:reference-file>
       </trans-unit>
+      <trans-unit id="9c96ffba7a783d0786368dbf8b2b23dfc4188e66" resname="email.required">
+        <source>The email address is required</source>
+        <target xml:lang="es-ES" state="translated">Se requiere una dirección de correo electrónico</target>
+        <note>key: email.required</note>
+        <jms:reference-file>Resources/public/js/views/fields/ez-author-editview.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/fields/ez-user-editview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5c973cf4cef4fd2936dbd1d7879ccdcd8b9e6ffe" resname="image.alternativetext">
+        <source>Alternative text:</source>
+        <target xml:lang="es-ES" state="translated">Texto alternativo:</target>
+        <note>key: image.alternativetext</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/image.hbt</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
