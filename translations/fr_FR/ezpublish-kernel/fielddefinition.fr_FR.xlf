@@ -252,9 +252,9 @@
         <jms:reference-file line="207">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
         <jms:reference-file line="226">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7d8f219b8fc1dab2be8b6a82898b0e7a8920c928" resname="fielddefinition.selection-method.multi_template">
+      <trans-unit id="7d8f219b8fc1dab2be8b6a82898b0e7a8920c928" resname="fielddefinition.selection-method.multi_template" approved="yes">
         <source>Template based, multi</source>
-        <target xml:lang="fr" state="translated">Modèle de base, multiple</target>
+        <target xml:lang="fr">Modèle de base, multiple</target>
         <note>key: fielddefinition.selection-method.multi_template</note>
         <jms:reference-file line="234">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
