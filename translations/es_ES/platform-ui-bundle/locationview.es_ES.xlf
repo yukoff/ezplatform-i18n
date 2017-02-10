@@ -96,6 +96,30 @@
         <note>key: locationview.details.loadingcreator</note>
         <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="4d80e1ddcdccb24545ffd7cfc24ca2290bfe2093" resname="locationview.details.retry">
+        <source>Retry</source>
+        <target xml:lang="es-ES" state="translated">Volver a intentarlo</target>
+        <note>key: locationview.details.retry</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="33ceaa61b8d64b8c3ea118e4f8d1c172c97f5329" resname="locationview.locations.hidden">
+        <source>Hidden</source>
+        <target xml:lang="es-ES" state="translated">Oculto</target>
+        <note>key: locationview.locations.hidden</note>
+        <jms:reference-file>Resources/public/templates/tabs/locations.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="8a1beb515496a34287a6fe56c5e12e752c12a47d" resname="locationview.locations.hide">
+        <source>Hide</source>
+        <target xml:lang="es-ES" state="translated">Ocultar</target>
+        <note>key: locationview.locations.hide</note>
+        <jms:reference-file>Resources/public/templates/tabs/locations.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e4effb18f15a8e0e891860a2b115f08df36a7313" resname="locationview.locations.path">
+        <source>Path</source>
+        <target xml:lang="es-ES" state="translated">Ruta</target>
+        <note>key: locationview.locations.path</note>
+        <jms:reference-file>Resources/public/templates/tabs/locations.hbt</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
