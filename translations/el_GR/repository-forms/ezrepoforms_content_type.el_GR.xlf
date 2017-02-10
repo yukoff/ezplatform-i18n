@@ -24,6 +24,18 @@
         <note>key: content_type.default_always_available</note>
         <jms:reference-file line="115">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
       </trans-unit>
+      <trans-unit id="b29f5d9c32e10776ec9fd36c35c4aefc96732cb2" resname="content_type.default_sort_field">
+        <source>Default field for sorting children</source>
+        <target xml:lang="el" state="translated">Προεπιλεγμένο πεδίο για την ταξινόμηση των παιδιών</target>
+        <note>key: content_type.default_sort_field</note>
+        <jms:reference-file line="103">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7a67ffefca1339a9e4c5224d773378c2e5f6f378" resname="content_type.default_sort_order">
+        <source>Default sort order</source>
+        <target xml:lang="el" state="translated">Προεπιλεγμένη σειρά ταξινόμησης</target>
+        <note>key: content_type.default_sort_order</note>
+        <jms:reference-file line="111">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+      </trans-unit>
       <trans-unit id="f2a3cc77cdadcff8883b0022e006e24918307687" resname="content_type.description">
         <source>Description</source>
         <target xml:lang="el" state="translated">Περιγραφή</target>
