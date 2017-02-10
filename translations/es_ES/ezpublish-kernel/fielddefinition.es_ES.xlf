@@ -68,6 +68,31 @@
         <note>key: fielddefinition.media-player-type.undefined</note>
         <jms:reference-file line="186">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="61d9fc8a2cbcb067d39496dba7e884caf51cf245" resname="fielddefinition.media-player-type.windows_media_player">
+        <source>Window Media Player</source>
+        <target xml:lang="es-ES" state="translated">Windows Media Player</target>
+        <note>key: fielddefinition.media-player-type.windows_media_player</note>
+        <jms:reference-file line="180">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="1feb12108139bb4d34877c40ade8362c0872b528" resname="fielddefinition.min-value.label">
+        <source>Minimum value:</source>
+        <target xml:lang="es-ES" state="translated">Valor mínimo:</target>
+        <note>key: fielddefinition.min-value.label</note>
+        <jms:reference-file line="347">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ac0aff5c558fb078621da0f46b2ae5b0e04afcaa" resname="fielddefinition.preferred-rows-number.value">
+        <source>%rows% rows</source>
+        <target xml:lang="es-ES" state="translated">%rows% entradas</target>
+        <note>key: fielddefinition.preferred-rows-number.value</note>
+        <jms:reference-file line="311">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b21527196a76acac750d478bfe8137cae7aff914" resname="fielddefinition.selection-method.browse">
+        <source>Browse</source>
+        <target xml:lang="es-ES" state="translated">Examinar</target>
+        <note>key: fielddefinition.selection-method.browse</note>
+        <jms:reference-file line="205">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+        <jms:reference-file line="224">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
