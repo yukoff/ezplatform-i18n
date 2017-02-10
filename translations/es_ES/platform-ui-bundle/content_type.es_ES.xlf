@@ -59,11 +59,34 @@
         <note>key: content_type.default_sort</note>
         <jms:reference-file line="69">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="f2a3cc77cdadcff8883b0022e006e24918307687" resname="content_type.description">
+        <source>Description</source>
+        <target xml:lang="es-ES" state="translated">Descripción</target>
+        <note>key: content_type.description</note>
+        <jms:reference-file line="47">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="252d43535d548e208668c24e8924f737a1a191c8" resname="content_type.edit">
+        <source>Edit</source>
+        <target xml:lang="es-ES" state="translated">Editar</target>
+        <note>key: content_type.edit</note>
+        <jms:reference-file line="137">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+        <jms:reference-file line="44">Resources/views/ContentType/view_content_type_group.html.twig</jms:reference-file>
+        <jms:reference-file line="46">Resources/views/ContentType/view_content_type_group.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="38a48d5b27331f27a6a51e3bb9be3e6340fc1ccb" resname="content_type.edit_title">
         <source>Edit</source>
         <target xml:lang="es-ES" state="translated">Editar</target>
         <note>key: content_type.edit_title</note>
         <jms:reference-file line="139">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="fd931f1ea0d601fe877606ec9e42ff7c37d44d4e" resname="content_type.group.cancel">
+        <source>Cancel</source>
+        <target xml:lang="es-ES" state="translated">Cancelar</target>
+        <note>key: content_type.group.cancel</note>
+        <jms:reference-file line="42">Resources/views/ContentType/edit_content_type_group.html.twig</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="es-ES">Cancel</target>
+        </alt-trans>
       </trans-unit>
     </body>
   </file>
