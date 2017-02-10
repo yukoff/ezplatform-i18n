@@ -54,6 +54,12 @@
         <note>key: assignment.user_or_group_using</note>
         <jms:reference-file line="24">Resources/views/Role/view_role.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="5f14c2cbee4f51ce207b4f179d888d87cc9d92db" resname="policy.function_all">
+        <source>all functions</source>
+        <target xml:lang="es-ES" state="translated">Todas las funciones</target>
+        <note>key: policy.function_all</note>
+        <jms:reference-file line="52">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="c5a0621c161804ccfb545695d920a77db05bb686" resname="policy.limitation">
         <source>Limitation</source>
         <target xml:lang="es-ES" state="translated">Limitación</target>
