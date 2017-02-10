@@ -72,6 +72,18 @@
         <note>key: universaldiscovery.last.modified</note>
         <jms:reference-file>Resources/public/templates/universaldiscovery/selected.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="6f3ff5ad95f00a897d624e534d2479070c722226" resname="universaldiscovery.name">
+        <source>Name</source>
+        <target xml:lang="es-ES" state="translated">Nombre</target>
+        <note>key: universaldiscovery.name</note>
+        <jms:reference-file>Resources/public/templates/universaldiscovery/search.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="16db03c0f5393377ce31c398b1b7f797a749516a" resname="universaldiscovery.preview">
+        <source>Preview</source>
+        <target xml:lang="es-ES" state="translated">Vista previa</target>
+        <note>key: universaldiscovery.preview</note>
+        <jms:reference-file>Resources/public/templates/universaldiscovery/search.hbt</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
