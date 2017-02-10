@@ -72,6 +72,30 @@
         <note>key: failed.sending.to.trash</note>
         <jms:reference-file>Resources/public/js/views/services/ez-locationviewviewservice.js</jms:reference-file>
       </trans-unit>
+      <trans-unit id="e0be1422e1af400879a6716220eabc9ad4fca29e" resname="locationview.details.ascending">
+        <source>Ascending</source>
+        <target xml:lang="es-ES" state="translated">Ascendente</target>
+        <note>key: locationview.details.ascending</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="2e143171eb44b9d8b17a06195b938181101de957" resname="locationview.details.contentid">
+        <source>Content Id</source>
+        <target xml:lang="es-ES" state="translated">ID del contenido</target>
+        <note>key: locationview.details.contentid</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a8f82a516b76060775a7c40c5163cd4f2af7b8ac" resname="locationview.details.descending">
+        <source>Descending</source>
+        <target xml:lang="es-ES" state="translated">Descendente</target>
+        <note>key: locationview.details.descending</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="85dbe816267d441a33ecd4d1778b58f25a350814" resname="locationview.details.loadingcreator">
+        <source>Loading the creator</source>
+        <target xml:lang="es-ES" state="translated">Cargando el autor</target>
+        <note>key: locationview.details.loadingcreator</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
