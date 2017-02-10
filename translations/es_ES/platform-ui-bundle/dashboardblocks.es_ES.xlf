@@ -75,6 +75,14 @@
         <jms:reference-file>Resources/public/templates/dashboard/mycontent.hbt</jms:reference-file>
         <jms:reference-file>Resources/public/templates/dashboard/mydrafts.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="7521275a12ed4eecb89be89777fcabb81f68338c" resname="dashboard.version">
+        <source>Version</source>
+        <target xml:lang="es-ES" state="translated">Versión</target>
+        <note>key: dashboard.version</note>
+        <jms:reference-file>Resources/public/templates/dashboard/allcontent.hbt</jms:reference-file>
+        <jms:reference-file>Resources/public/templates/dashboard/mycontent.hbt</jms:reference-file>
+        <jms:reference-file>Resources/public/templates/dashboard/mydrafts.hbt</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
