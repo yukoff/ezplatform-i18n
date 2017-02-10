@@ -60,6 +60,12 @@
         <note>key: content_type.group.identifier</note>
         <jms:reference-file line="21">lib/Form/Type/ContentType/ContentTypeGroupType.php</jms:reference-file>
       </trans-unit>
+      <trans-unit id="c657344d0bf6b6203b1b9eaf4e44f7a6261dfe1d" resname="content_type.group.save">
+        <source>Save</source>
+        <target xml:lang="es-ES" state="translated">Guardar</target>
+        <note>key: content_type.group.save</note>
+        <jms:reference-file line="22">lib/Form/Type/ContentType/ContentTypeGroupType.php</jms:reference-file>
+      </trans-unit>
       <trans-unit id="338e462a91906d03e5e6b8c00528a38d482a3c9e" resname="content_type.is_container">
         <source>Container</source>
         <target xml:lang="es-ES" state="translated">Contenedor</target>
