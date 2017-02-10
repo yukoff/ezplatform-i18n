@@ -55,6 +55,18 @@
         <note>key: discard.changes</note>
         <jms:reference-file>Resources/public/js/views/ez-editactionbarview.js</jms:reference-file>
       </trans-unit>
+      <trans-unit id="431acee9716b1c0e01f44d5c29066c88805baa76" resname="draft.saved">
+        <source>The draft was stored successfully</source>
+        <target xml:lang="es-ES" state="translated">El borrador ha sido guardado exitosamente</target>
+        <note>key: draft.saved</note>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-savedraftplugin.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a73c8d3d7af831b9afb385bad44ea20909312ce3" resname="error.saving.draft">
+        <source>An error occurred while saving the draft</source>
+        <target xml:lang="es-ES" state="translated">Ocurrió un error mientras intentábamos guardar el borrador</target>
+        <note>key: error.saving.draft</note>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-savedraftplugin.js</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
