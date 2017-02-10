@@ -36,6 +36,12 @@
         <note>key: draftconflict.newdraft</note>
         <jms:reference-file>Resources/public/templates/confirmbox/draftconflict.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="302cfdba7ddbb677d9abb7967b44aaf8ab0ce8d0" resname="draftconflict.owner">
+        <source>Owner</source>
+        <target xml:lang="el" state="translated">Ιδιοκτήτης</target>
+        <note>key: draftconflict.owner</note>
+        <jms:reference-file>Resources/public/templates/confirmbox/draftconflict.hbt</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
