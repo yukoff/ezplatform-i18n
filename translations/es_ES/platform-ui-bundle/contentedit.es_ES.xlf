@@ -79,6 +79,12 @@
         <note>key: save</note>
         <jms:reference-file>Resources/public/js/views/ez-editactionbarview.js</jms:reference-file>
       </trans-unit>
+      <trans-unit id="0283adf7eb61930a84f71c0bbf6b5a0d8156416a" resname="select.a.draft">
+        <source>Select a draft</source>
+        <target xml:lang="es-ES" state="translated">Seleccione un borrador</target>
+        <note>key: select.a.draft</note>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-contenteditplugin.js</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
