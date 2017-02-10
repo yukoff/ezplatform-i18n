@@ -54,6 +54,12 @@
         <note>key: show.more.results</note>
         <jms:reference-file>Resources/public/templates/searchlistview.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="31c20e73fa29248cc7bf440ac9d720ff6d88fd3e" resname="translations">
+        <source>Translations</source>
+        <target xml:lang="es-ES" state="translated">Traducciones</target>
+        <note>key: translations</note>
+        <jms:reference-file>Resources/public/js/views/ez-searchlistview.js</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
