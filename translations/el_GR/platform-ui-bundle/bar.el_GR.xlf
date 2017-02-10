@@ -36,6 +36,12 @@
         <note>key: actionbar.minimizeActionBar</note>
         <jms:reference-file>Resources/public/js/views/ez-actionbarview.js</jms:reference-file>
       </trans-unit>
+      <trans-unit id="b282633e9e76dd418412580d9232d28d9404dcb5" resname="actionbar.move">
+        <source>Move</source>
+        <target xml:lang="el" state="translated">Μετακίνηση</target>
+        <note>key: actionbar.move</note>
+        <jms:reference-file>Resources/public/js/views/ez-actionbarview.js</jms:reference-file>
+      </trans-unit>
       <trans-unit id="0c208e52af8963639637f9c9ce2163bd98d1628e" resname="actionbar.sendToTrash">
         <source>Send to Trash</source>
         <target xml:lang="el" state="translated">Μετακίνηση στον κάδο ανακύκλωσης</target>
