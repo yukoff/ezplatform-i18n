@@ -48,6 +48,12 @@
         <note>key: universaldiscovery.confirmed.items</note>
         <jms:reference-file>Resources/public/templates/universaldiscovery/confirmedlist.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="572fdb94d49b6e58d297fd7491cf28c77d60e241" resname="universaldiscovery.content.tree">
+        <source>Content tree</source>
+        <target xml:lang="es-ES" state="translated">Árbol de contenido</target>
+        <note>key: universaldiscovery.content.tree</note>
+        <jms:reference-file>Resources/public/templates/universaldiscovery/browse.hbt</jms:reference-file>
+      </trans-unit>
       <trans-unit id="5d385d494274d016769564a3bdf95332896d62af" resname="universaldiscovery.creation.date">
         <source>Creation Date</source>
         <target xml:lang="es-ES" state="translated">Fecha de creación</target>
