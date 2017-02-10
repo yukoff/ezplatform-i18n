@@ -61,6 +61,16 @@
         <target xml:lang="es-ES" state="translated">Línea de texto</target>
         <note>key: ezstring.name</note>
       </trans-unit>
+      <trans-unit id="503c2801427b2d773d020ef953413d14c17968bd" resname="eztime.name">
+        <source>Time</source>
+        <target xml:lang="es-ES" state="translated">Hora</target>
+        <note>key: eztime.name</note>
+      </trans-unit>
+      <trans-unit id="0317c233c19b3c191acc92971bfb616c7fe298de" resname="ezuser.name">
+        <source>User account</source>
+        <target xml:lang="es-ES" state="translated">Cuenta de usuario</target>
+        <note>key: ezuser.name</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
