@@ -112,6 +112,30 @@
         <note>key: remove.this.block</note>
         <jms:reference-file>Resources/public/js/alloyeditor/buttons/blockremove.js</jms:reference-file>
       </trans-unit>
+      <trans-unit id="4cdec5ce343b49799b87d7c0adbe47dd2e67ed7f" resname="same.tab">
+        <source>Same tab</source>
+        <target xml:lang="es-ES" state="translated">Misma pestaña</target>
+        <note>key: same.tab</note>
+        <jms:reference-file>Resources/public/js/alloyeditor/buttons/linkedit.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="6c7ff48bfb23af1c48100802f28c610bb4e477b6" resname="select.another.image">
+        <source>Select another image</source>
+        <target xml:lang="es-ES" state="translated">Seleccione otra imagen</target>
+        <note>key: select.another.image</note>
+        <jms:reference-file>Resources/public/js/alloyeditor/buttons/imagehref.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="391b814dc27a7b6065e56676a1d6a3fc17bb7b95" resname="select.content">
+        <source>Select content</source>
+        <target xml:lang="es-ES" state="translated">Seleccione contenido</target>
+        <note>key: select.content</note>
+        <jms:reference-file>Resources/public/js/alloyeditor/buttons/linkedit.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="3c6de1b7dd91465d437ef415f94f36afc1fbc8a8" resname="title">
+        <source>Title</source>
+        <target xml:lang="es-ES" state="translated">Título</target>
+        <note>key: title</note>
+        <jms:reference-file>Resources/public/js/alloyeditor/buttons/linkedit.js</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
