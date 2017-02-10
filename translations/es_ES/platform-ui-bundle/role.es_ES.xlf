@@ -102,6 +102,12 @@
         <note>key: role.id</note>
         <jms:reference-file line="26">Resources/views/Role/list_roles.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="bc75703d2446d97b0b9cefd67cd89db4848e9fae" resname="role.policy.create.title">
+        <source>New policy</source>
+        <target xml:lang="es-ES" state="translated">Nueva política</target>
+        <note>key: role.policy.create.title</note>
+        <jms:reference-file line="6">Resources/views/Role/edit_policy.html.twig</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
