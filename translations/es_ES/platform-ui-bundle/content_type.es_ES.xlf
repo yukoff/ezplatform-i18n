@@ -126,6 +126,12 @@
         <jms:reference-file line="39">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
         <jms:reference-file line="28">Resources/views/ContentType/view_content_type_group.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="8b863a9c7cd91565182ad0a3a5e30ca8090f84c7" resname="field_definition.identifier">
+        <source>Identifier</source>
+        <target xml:lang="es-ES" state="translated">Identificador</target>
+        <note>key: field_definition.identifier</note>
+        <jms:reference-file line="91">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="9a02e329edf4c1e41c97c8be922137c284c249c4" resname="field_definition.name">
         <source>Name</source>
         <target xml:lang="es-ES" state="translated">Nombre</target>
