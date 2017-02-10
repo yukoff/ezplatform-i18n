@@ -101,6 +101,37 @@
         <jms:reference-file line="65">Resources/views/ContentType/list_content_type_groups.html.twig</jms:reference-file>
         <jms:reference-file line="67">Resources/views/ContentType/list_content_type_groups.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="ac9f629a5395fbcbc31455777dafda7ef125b39e" resname="content_type.id">
+        <source>ID</source>
+        <target xml:lang="es-ES" state="translated">ID</target>
+        <note>key: content_type.id</note>
+        <jms:reference-file line="27">Resources/views/ContentType/view_content_type_group.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d7155c791bcef0de802e2194552a2eee56d3b69e" resname="content_type.metadata.title">
+        <source>Global properties</source>
+        <target xml:lang="es-ES" state="translated">Propiedades globales</target>
+        <note>key: content_type.metadata.title</note>
+        <jms:reference-file line="37">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="da320072e416ddaba6f9ea57810d26fd1b6bfe80" resname="content_type.modified_date">
+        <source>Modification date</source>
+        <target xml:lang="es-ES" state="translated">Fecha de modificación</target>
+        <note>key: content_type.modified_date</note>
+        <jms:reference-file line="30">Resources/views/ContentType/view_content_type_group.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7fddd251857df821bd536dd680e1edbc921790a2" resname="content_type.name">
+        <source>Name</source>
+        <target xml:lang="es-ES" state="translated">Nombre</target>
+        <note>key: content_type.name</note>
+        <jms:reference-file line="39">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+        <jms:reference-file line="28">Resources/views/ContentType/view_content_type_group.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9a02e329edf4c1e41c97c8be922137c284c249c4" resname="field_definition.name">
+        <source>Name</source>
+        <target xml:lang="es-ES" state="translated">Nombre</target>
+        <note>key: field_definition.name</note>
+        <jms:reference-file line="90">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
