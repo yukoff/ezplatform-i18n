@@ -90,6 +90,36 @@
         <note>key: content_type.sort_field.2</note>
         <jms:reference-file>eZ\Publish\API\Repository\Values\Content\Location</jms:reference-file>
       </trans-unit>
+      <trans-unit id="f0dba52962ff2fceb7ab0de72427b4deb55ffbbc" resname="content_type.sort_field.4">
+        <source>Section</source>
+        <target xml:lang="es-ES" state="translated">Sección</target>
+        <note>key: content_type.sort_field.4</note>
+        <jms:reference-file>eZ\Publish\API\Repository\Values\Content\Location</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="18f4f0dcdd6a1f1a9f7a5c301cc378167f403836" resname="content_type.sort_order.0">
+        <source>Descending</source>
+        <target xml:lang="es-ES" state="translated">Descendente</target>
+        <note>key: content_type.sort_order.0</note>
+        <jms:reference-file>eZ\Publish\API\Repository\Values\Content\Location</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b411f25ded028ccb2ef56a55d69bd2e3f1da4cd5" resname="content_type.sort_order.1">
+        <source>Ascending</source>
+        <target xml:lang="es-ES" state="translated">Ascendente</target>
+        <note>key: content_type.sort_order.1</note>
+        <jms:reference-file>eZ\Publish\API\Repository\Values\Content\Location</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="027f35cf66e5ea571cc7b600dad0ab5ceea20cd6" resname="field_definition.ezcountry.is_multiple">
+        <source>Multiple choice</source>
+        <target xml:lang="es-ES" state="translated">Selección múltiple</target>
+        <note>key: field_definition.ezcountry.is_multiple</note>
+        <jms:reference-file line="42">lib/FieldType/Mapper/CountryFormMapper.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="18a5846deb7a3d7dcc9fbd0a2de28d609c2a55c2" resname="field_definition.ezdate.default_type">
+        <source>Default value</source>
+        <target xml:lang="es-ES" state="translated">Valor por defecto</target>
+        <note>key: field_definition.ezdate.default_type</note>
+        <jms:reference-file line="34">lib/FieldType/Mapper/DateFormMapper.php</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
