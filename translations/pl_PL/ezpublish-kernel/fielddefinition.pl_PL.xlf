@@ -6,64 +6,43 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="fa2595f063cfd4284226372dc99eb3dfbbc36498" resname="fielddefinition.isbn.label">
+        <source>Selected ISBN format:</source>
+        <target xml:lang="pl" state="translated">Wybrany format ISBN:</target>
+        <note>key: fielddefinition.isbn.label</note>
+        <jms:reference-file line="380">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="11e7b0a01edea69919ea6191acdbd5ad7c2bf279" resname="fielddefinition.max-value.label">
+        <source>Maximum value:</source>
+        <target xml:lang="pl" state="translated">Wartość maksymalna:</target>
+        <note>key: fielddefinition.max-value.label</note>
+        <jms:reference-file line="360">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="63f939a170c5c3675f13ca3e330ea981d4a5540c" resname="fielddefinition.maximum-file-size.label">
+        <source>Maximum file size:</source>
+        <target xml:lang="pl" state="translated">Maksymalny rozmiar pliku:</target>
+        <note>key: fielddefinition.maximum-file-size.label</note>
+        <jms:reference-file line="295">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="1feb12108139bb4d34877c40ade8362c0872b528" resname="fielddefinition.min-value.label">
+        <source>Minimum value:</source>
+        <target xml:lang="pl" state="translated">Wartość minimalna:</target>
+        <note>key: fielddefinition.min-value.label</note>
+        <jms:reference-file line="347">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="694dc611591facca075a581721e399e272b758fe" resname="fielddefinition.multiple.label">
+        <source>Allow multiple choices:</source>
+        <target xml:lang="pl" state="translated">Dopuszczalny wielokrotny wybór:</target>
+        <note>key: fielddefinition.multiple.label</note>
+        <jms:reference-file line="373">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4c9eb21a084528340d7944eeb0ffe525fc5e5e75" resname="fielddefinition.use-seconds.label">
+        <source>Use seconds:</source>
+        <target xml:lang="pl" state="translated">Używaj sekund:</target>
+        <note>key: fielddefinition.use-seconds.label</note>
+        <jms:reference-file line="112">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+        <jms:reference-file line="86">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
