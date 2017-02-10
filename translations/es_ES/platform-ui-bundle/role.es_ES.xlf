@@ -72,6 +72,24 @@
         <note>key: policy.limitation_none</note>
         <jms:reference-file line="70">Resources/views/Role/view_role.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="b23aadd145c148428bb05af8f0d30a87fad64ef9" resname="policy.module">
+        <source>Module</source>
+        <target xml:lang="es-ES" state="translated">Modulo</target>
+        <note>key: policy.module</note>
+        <jms:reference-file line="32">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4006d02c9aa4b140f8526d1a99a02981b8bf62d4" resname="policy.module_all">
+        <source>all modules</source>
+        <target xml:lang="es-ES" state="translated">Todos los modulos</target>
+        <note>key: policy.module_all</note>
+        <jms:reference-file line="45">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e8925242d54f54b2dca206c8ca6ea2c28bc145e0" resname="role.assign_limit_section.cancel">
+        <source>Cancel</source>
+        <target xml:lang="es-ES" state="translated">Cancelar</target>
+        <note>key: role.assign_limit_section.cancel</note>
+        <jms:reference-file line="44">Resources/views/Role/assign_role_by_section.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="e9e10ddeb169d59d94b54912d0422481a0a0b140" resname="role.edit_title">
         <source><![CDATA[Edit <%roleName%>]]></source>
         <target xml:lang="es-ES" state="needs-translation"><![CDATA[ <%roleName%>]]></target>
