@@ -6,6 +6,33 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
+      <trans-unit id="fa5a2f0bf185c7e872f77b81a24867afb9ef0ec7" resname="fielddefinition.default-value.empty">
+        <source>Empty</source>
+        <target xml:lang="pl" state="translated">Puste</target>
+        <note>key: fielddefinition.default-value.empty</note>
+        <jms:reference-file line="106">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+        <jms:reference-file line="71">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+        <jms:reference-file line="95">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ad6776fd58e0ae4b2ba44ff014986ec6b1ec4de4" resname="fielddefinition.default-value.label">
+        <source>Default value:</source>
+        <target xml:lang="pl" state="translated">Wartość domyślna:</target>
+        <note>key: fielddefinition.default-value.label</note>
+        <jms:reference-file line="334">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+        <jms:reference-file line="56">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="232dd99b54158ff1f3be77113aae16e691ce406a" resname="fielddefinition.default-value.unchecked">
+        <source>Unchecked</source>
+        <target xml:lang="pl" state="translated">Niezaznaczone</target>
+        <note>key: fielddefinition.default-value.unchecked</note>
+        <jms:reference-file line="61">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="908870d411d8599211d188e35d0240bfecb98b5e" resname="fielddefinition.default-value.undefined">
+        <source>No default value</source>
+        <target xml:lang="pl" state="translated">Brak wartości domyślnej</target>
+        <note>key: fielddefinition.default-value.undefined</note>
+        <jms:reference-file line="339">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="fa2595f063cfd4284226372dc99eb3dfbbc36498" resname="fielddefinition.isbn.label">
         <source>Selected ISBN format:</source>
         <target xml:lang="pl" state="translated">Wybrany format ISBN:</target>
@@ -18,11 +45,77 @@
         <note>key: fielddefinition.max-value.label</note>
         <jms:reference-file line="360">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="444423d6eff78ccc1c92077813a212b4e5a002c8" resname="fielddefinition.max-value.undefined">
+        <source>No defined maximum value</source>
+        <target xml:lang="pl" state="translated">Nie określono wartości maksymalnej</target>
+        <note>key: fielddefinition.max-value.undefined</note>
+        <jms:reference-file line="365">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="63f939a170c5c3675f13ca3e330ea981d4a5540c" resname="fielddefinition.maximum-file-size.label">
         <source>Maximum file size:</source>
         <target xml:lang="pl" state="translated">Maksymalny rozmiar pliku:</target>
         <note>key: fielddefinition.maximum-file-size.label</note>
         <jms:reference-file line="295">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e58e37a5cd49fa5884d15ea8af61ad6973f33412" resname="fielddefinition.maximum-file-size.undefined">
+        <source>No defined maximum size</source>
+        <target xml:lang="pl" state="translated">Nie określono rozmiaru maksymalnego</target>
+        <note>key: fielddefinition.maximum-file-size.undefined</note>
+        <jms:reference-file line="300">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b9bb83913e23ad5a59eb7485ca48386bd7fce66e" resname="fielddefinition.media-player-type.flash">
+        <source>Flash</source>
+        <target xml:lang="pl" state="translated">Flash</target>
+        <note>key: fielddefinition.media-player-type.flash</note>
+        <jms:reference-file line="172">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="1c31870437c9baa0d08c67140d35fa54c6223922" resname="fielddefinition.media-player-type.html5_audio">
+        <source>HTML5 Audio</source>
+        <target xml:lang="pl" state="translated">Audio HTML5</target>
+        <note>key: fielddefinition.media-player-type.html5_audio</note>
+        <jms:reference-file line="184">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="22881c3ebee12191bc6f269d943c1140eea4bfb1" resname="fielddefinition.media-player-type.html5_video">
+        <source>HTML5 Video</source>
+        <target xml:lang="pl" state="translated">Wideo HTML5</target>
+        <note>key: fielddefinition.media-player-type.html5_video</note>
+        <jms:reference-file line="182">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0aaa90efdf7cc5042723e7500891db70da3f8850" resname="fielddefinition.media-player-type.label">
+        <source>Media player type:</source>
+        <target xml:lang="pl" state="translated">Typ odtwarzacza mediów:</target>
+        <note>key: fielddefinition.media-player-type.label</note>
+        <jms:reference-file line="169">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c7a28f2ea418dc17e634bf386d5f1db091582fc8" resname="fielddefinition.media-player-type.quick_time">
+        <source>Quicktime</source>
+        <target xml:lang="pl" state="translated">QuickTime</target>
+        <note>key: fielddefinition.media-player-type.quick_time</note>
+        <jms:reference-file line="174">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="edd8db0307e234e095d1788540bd026e48e173f8" resname="fielddefinition.media-player-type.real_player">
+        <source>Real Player</source>
+        <target xml:lang="pl" state="translated">Real Player</target>
+        <note>key: fielddefinition.media-player-type.real_player</note>
+        <jms:reference-file line="176">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4ad14874021f1b806f9c93b41ef195b12fe5ab3f" resname="fielddefinition.media-player-type.silverlight">
+        <source>Silverlight</source>
+        <target xml:lang="pl" state="translated">Silverlight</target>
+        <note>key: fielddefinition.media-player-type.silverlight</note>
+        <jms:reference-file line="178">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="738ddf9e6b12ae22e5f8e62839f63221c24f1431" resname="fielddefinition.media-player-type.undefined">
+        <source>No defined value</source>
+        <target xml:lang="pl" state="translated">Nie określono wartości</target>
+        <note>key: fielddefinition.media-player-type.undefined</note>
+        <jms:reference-file line="186">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="61d9fc8a2cbcb067d39496dba7e884caf51cf245" resname="fielddefinition.media-player-type.windows_media_player">
+        <source>Window Media Player</source>
+        <target xml:lang="pl" state="translated">Windows Media Player</target>
+        <note>key: fielddefinition.media-player-type.windows_media_player</note>
+        <jms:reference-file line="180">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1feb12108139bb4d34877c40ade8362c0872b528" resname="fielddefinition.min-value.label">
         <source>Minimum value:</source>
@@ -30,11 +123,24 @@
         <note>key: fielddefinition.min-value.label</note>
         <jms:reference-file line="347">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="625d3f00da19e0e839ad54eb5cc6b3504033b882" resname="fielddefinition.min-value.undefined">
+        <source>No defined minimum value</source>
+        <target xml:lang="pl" state="translated">Nie określono wartości minimalnej</target>
+        <note>key: fielddefinition.min-value.undefined</note>
+        <jms:reference-file line="352">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="694dc611591facca075a581721e399e272b758fe" resname="fielddefinition.multiple.label">
         <source>Allow multiple choices:</source>
         <target xml:lang="pl" state="translated">Dopuszczalny wielokrotny wybór:</target>
         <note>key: fielddefinition.multiple.label</note>
         <jms:reference-file line="373">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a60c81e556aa14c00b3b44ffb6e49f90b882c286" resname="fielddefinition.selection-method.label">
+        <source>Selection method:</source>
+        <target xml:lang="pl" state="translated">Metoda wyboru:</target>
+        <note>key: fielddefinition.selection-method.label</note>
+        <jms:reference-file line="202">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+        <jms:reference-file line="221">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="4c9eb21a084528340d7944eeb0ffe525fc5e5e75" resname="fielddefinition.use-seconds.label">
         <source>Use seconds:</source>
