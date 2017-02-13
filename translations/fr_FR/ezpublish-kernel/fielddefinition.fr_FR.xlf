@@ -318,6 +318,12 @@
         <note>key: fielddefinition.selection-method.multiple_list</note>
         <jms:reference-file line="232">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="60f06115f038572328285e2ca1fc5ad811105c49" resname="fielddefinition.selection-method.radio">
+        <source>List with radio buttons</source>
+        <target xml:lang="fr" state="translated">Liste avec des boutons radio</target>
+        <note>key: fielddefinition.selection-method.radio</note>
+        <jms:reference-file line="228">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="37121f3c9e8054432510a9f85fd3235e5f549734" resname="fielddefinition.selection-method.single_template">
         <source>Template based, single</source>
         <target xml:lang="fr" state="translated">Modèle de base, unique</target>
