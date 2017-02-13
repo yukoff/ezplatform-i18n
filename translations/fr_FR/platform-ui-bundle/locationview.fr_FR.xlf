@@ -50,9 +50,12 @@
       </trans-unit>
       <trans-unit id="e751550d2bffb320256d3934693e4cbe1b9610b5" resname="confirmed.send.to.trash">
         <source>Are you sure you want to send this content to trash?</source>
-        <target xml:lang="fr" state="translated">Etes-vous sûr de vouloir envoyer ce contenu à la corbeille ?</target>
+        <target xml:lang="fr" state="translated">Etes-vous sûr de vouloir envoyer ce contenu à la Corbeille ?</target>
         <note>key: confirmed.send.to.trash</note>
         <jms:reference-file>Resources/public/js/views/services/ez-locationviewviewservice.js</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Etes-vous sûr de vouloir envoyer ce contenu à la corbeille ?</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="c44059e516685b63857e6db9c22a11ed0d990519" resname="deleted.content">
         <source>'%name%' was deleted</source>
@@ -102,9 +105,9 @@
         <note>key: failed.removing.versions.of</note>
         <jms:reference-file>Resources/public/js/views/services/plugins/ez-versionsplugin.js</jms:reference-file>
       </trans-unit>
-      <trans-unit id="fd0df2ab8df516f5a2900775c5f427ddb9012b77" resname="failed.sending.to.trash">
+      <trans-unit id="fd0df2ab8df516f5a2900775c5f427ddb9012b77" resname="failed.sending.to.trash" approved="yes">
         <source>An error occurred when sending '%contentName%' to Trash</source>
-        <target xml:lang="fr" state="translated">Une erreur s’est produite lors de l’envoi de « %contentName% » dans la Corbeille</target>
+        <target xml:lang="fr">Une erreur s’est produite lors de l’envoi de « %contentName% » dans la Corbeille</target>
         <note>key: failed.sending.to.trash</note>
         <jms:reference-file>Resources/public/js/views/services/ez-locationviewviewservice.js</jms:reference-file>
       </trans-unit>
@@ -168,9 +171,9 @@
         <note>key: locationview.details.contentremoteid</note>
         <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="d270971c445eca4fc0e7cd8ec006341f0ff19354" resname="locationview.details.creator">
+      <trans-unit id="d270971c445eca4fc0e7cd8ec006341f0ff19354" resname="locationview.details.creator" approved="yes">
         <source>Creator</source>
-        <target xml:lang="fr" state="translated">Auteur</target>
+        <target xml:lang="fr">Auteur</target>
         <note>key: locationview.details.creator</note>
         <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
       </trans-unit>
@@ -179,6 +182,27 @@
         <target xml:lang="fr" state="translated">Sous-éléments affichés par défaut par</target>
         <note>key: locationview.details.default.listing.of.subitems.by</note>
         <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a8f82a516b76060775a7c40c5163cd4f2af7b8ac" resname="locationview.details.descending">
+        <source>Descending</source>
+        <target xml:lang="fr" state="translated">Décroissant</target>
+        <note>key: locationview.details.descending</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5cc52ce2cc763622f266df9138b7e507cca2d7de" resname="locationview.details.errorcontributor">
+        <source>An error occurred while loading the last contributor.</source>
+        <target xml:lang="fr" state="translated">Une erreur est survenue lors du chargement du dernier contributeur.</target>
+        <note>key: locationview.details.errorcontributor</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="6008df6be918183f2a3896c49dd0d19ee35350d2" resname="locationview.details.errorcreator" approved="yes">
+        <source>An error occurred while loading the creator.</source>
+        <target xml:lang="fr">Une erreur est apparue lors du chargement de l'auteur.</target>
+        <note>key: locationview.details.errorcreator</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Une erreur est apparue lors du chargement du créateur.</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="e0d315cc1f7772de59ebb7a943e5331402f087f4" resname="locationview.details.lastcontributor">
         <source>Last contributor</source>
@@ -192,11 +216,14 @@
         <note>key: locationview.details.loadingcontributor</note>
         <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="85dbe816267d441a33ecd4d1778b58f25a350814" resname="locationview.details.loadingcreator">
+      <trans-unit id="85dbe816267d441a33ecd4d1778b58f25a350814" resname="locationview.details.loadingcreator" approved="yes">
         <source>Loading the creator</source>
-        <target xml:lang="fr" state="translated">Chargement de l'auteur</target>
+        <target xml:lang="fr">Chargement de l'auteur</target>
         <note>key: locationview.details.loadingcreator</note>
         <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Chargement de l'auteur initial</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="7f653bba9440b8a0b2dac47b4c30a5c97ba83678" resname="locationview.details.locationid">
         <source>Location Id</source>
@@ -530,9 +557,9 @@
         <note>key: select.location.to.swap</note>
         <jms:reference-file>Resources/public/js/views/services/plugins/ez-locationswapplugin.js</jms:reference-file>
       </trans-unit>
-      <trans-unit id="c3a7268c770036494e916618aae9927d0a353773" resname="sending.to.trash">
+      <trans-unit id="c3a7268c770036494e916618aae9927d0a353773" resname="sending.to.trash" approved="yes">
         <source>Sending '%name%' to Trash</source>
-        <target xml:lang="fr" state="translated">Envoi de « %name% » dans la Corbeille</target>
+        <target xml:lang="fr">Envoi de « %name% » dans la Corbeille</target>
         <note>key: sending.to.trash</note>
         <jms:reference-file>Resources/public/js/views/services/ez-locationviewviewservice.js</jms:reference-file>
       </trans-unit>
