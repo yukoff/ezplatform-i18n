@@ -33,6 +33,12 @@
           <target xml:lang="fr">Une erreur s’est produite lors du vidage la corbeille</target>
         </alt-trans>
       </trans-unit>
+      <trans-unit id="c7d0ace34e28047e04285d5d1ca7dbd8a4757432" resname="error.restoring.item" approved="yes">
+        <source>An error occurred while restoring trash item with id: %id%. For the moment item's whose original location has been deleted can not be restored</source>
+        <target xml:lang="fr">Une erreur est survenue lors de la restauration de l'élément de la Corbeille portant l'id : %id%. Pour le moment, les éléments dont l'emplacement initial a été supprimé ne peuvent pas être restaurés</target>
+        <note>key: error.restoring.item</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-trashviewservice.js</jms:reference-file>
+      </trans-unit>
       <trans-unit id="034c33d9dc24f606046bc88959214744dcb84993" resname="failed.load.content.type" approved="yes">
         <source>Failed to load trash item Content Type name</source>
         <target xml:lang="fr">Échec au chargement du nom d'un élement de contenu de la Corbeille</target>
