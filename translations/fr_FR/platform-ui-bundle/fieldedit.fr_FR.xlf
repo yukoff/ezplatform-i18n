@@ -718,6 +718,18 @@
         <note>key: richtext.save</note>
         <jms:reference-file>Resources/public/templates/fields/edit/richtext.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="2661cb6d447aad0683ba849b76913b44492fe727" resname="select.contents.to.add">
+        <source>Select the contents you want to add in the relation</source>
+        <target xml:lang="fr" state="translated">Sélectionnez les contenus que vous souhaitez ajouter dans la relation</target>
+        <note>key: select.contents.to.add</note>
+        <jms:reference-file>Resources/public/js/views/fields/ez-relationlist-editview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="8049139bde69cab92f967e171a9b3f1b933f3151" resname="svg.not.supported">
+        <source>SVG images are not supported. Please choose another image file.</source>
+        <target xml:lang="fr" state="translated">Les images SVG ne sont pas prises en charge. Veuillez choisir un autre fichier image.</target>
+        <note>key: svg.not.supported</note>
+        <jms:reference-file>Resources/public/js/views/fields/ez-image-editview.js</jms:reference-file>
+      </trans-unit>
       <trans-unit id="cbeb2eb9d25d8d0349f48bd24450b4431112165a" resname="this.field.is.required" approved="yes">
         <source>This field is required</source>
         <target xml:lang="fr">Ce champ est obligatoire</target>
@@ -814,6 +826,24 @@
         <target xml:lang="fr" state="translated">Confirmer mot de passe</target>
         <note>key: user.passwordconfirm</note>
         <jms:reference-file>Resources/public/templates/fields/edit/user.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="65a42e27e76bf2722822dd28dd0b7ff2d163cb37" resname="value.should.be.less.than">
+        <source>The value should be less than or equal to %maxIntegerValue%</source>
+        <target xml:lang="fr" state="translated">La valeur doit être inférieure ou égale à %maxIntegerValue%</target>
+        <note>key: value.should.be.less.than</note>
+        <jms:reference-file>Resources/public/js/views/fields/ez-integer-editview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0e3930cc51c59d71efa5464323c96d75b93873f3" resname="value.should.be.more.than">
+        <source>The value should be more than or equal to %minIntegerValue%</source>
+        <target xml:lang="fr" state="translated">La valeur doit être supérieure ou égale à %minIntegerValue%</target>
+        <note>key: value.should.be.more.than</note>
+        <jms:reference-file>Resources/public/js/views/fields/ez-integer-editview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5c462c60b8cdc7e23d84aca23ffda3d32000247e" resname="value.should.be.valid.integer">
+        <source>The value should be a valid integer number</source>
+        <target xml:lang="fr" state="translated">La valeur doit être un nombre entier valide</target>
+        <note>key: value.should.be.valid.integer</note>
+        <jms:reference-file>Resources/public/js/views/fields/ez-integer-editview.js</jms:reference-file>
       </trans-unit>
     </body>
   </file>
