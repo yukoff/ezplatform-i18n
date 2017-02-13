@@ -159,6 +159,12 @@
         <note>key: fielddefinition.media-player-type.html5_video</note>
         <jms:reference-file line="182">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="0aaa90efdf7cc5042723e7500891db70da3f8850" resname="fielddefinition.media-player-type.label">
+        <source>Media player type:</source>
+        <target xml:lang="fr" state="translated">Type de lecteur de media&amp;nbsp;:</target>
+        <note>key: fielddefinition.media-player-type.label</note>
+        <jms:reference-file line="169">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="c7a28f2ea418dc17e634bf386d5f1db091582fc8" resname="fielddefinition.media-player-type.quick_time">
         <source>Quicktime</source>
         <target xml:lang="fr" state="translated">QuickTime</target>
@@ -194,6 +200,12 @@
         <target xml:lang="fr" state="translated">Valeur minimale :</target>
         <note>key: fielddefinition.min-value.label</note>
         <jms:reference-file line="347">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="625d3f00da19e0e839ad54eb5cc6b3504033b882" resname="fielddefinition.min-value.undefined">
+        <source>No defined minimum value</source>
+        <target xml:lang="fr" state="translated">Aucune valeur minimale définie</target>
+        <note>key: fielddefinition.min-value.undefined</note>
+        <jms:reference-file line="352">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="694dc611591facca075a581721e399e272b758fe" resname="fielddefinition.multiple.label">
         <source>Allow multiple choices:</source>
@@ -263,6 +275,12 @@
         <target xml:lang="fr">Modèle de base, multiple</target>
         <note>key: fielddefinition.selection-method.multi_template</note>
         <jms:reference-file line="234">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="1095b3a335cbfeed0e396f081895affe81e7b7fd" resname="fielddefinition.selection-method.multiple_list">
+        <source>Multiple selection list</source>
+        <target xml:lang="fr" state="translated">Liste à sélection multiple</target>
+        <note>key: fielddefinition.selection-method.multiple_list</note>
+        <jms:reference-file line="232">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="37121f3c9e8054432510a9f85fd3235e5f549734" resname="fielddefinition.selection-method.single_template">
         <source>Template based, single</source>
