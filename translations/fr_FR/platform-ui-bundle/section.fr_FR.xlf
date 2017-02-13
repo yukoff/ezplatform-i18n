@@ -12,6 +12,12 @@
         <note>key: assigned.section</note>
         <jms:reference-file>Resources/public/js/views/services/ez-sectionserversideviewservice.js</jms:reference-file>
       </trans-unit>
+      <trans-unit id="f7e3a4c368276a309c136f36ba4b0fde89f8258f" resname="assigning.section">
+        <source>Assigning the section "%sectionName%" to %count% contents</source>
+        <target xml:lang="fr" state="translated">Attribution de la section "%sectionName%" à %count% contenus</target>
+        <note>key: assigning.section</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-sectionserversideviewservice.js</jms:reference-file>
+      </trans-unit>
       <trans-unit id="5752d1a75675e5cd0fde02a23eb424313e42e4c9" resname="section.assign.contents" approved="yes">
         <source>Assign to content</source>
         <target xml:lang="fr">Assigner au contenu</target>
