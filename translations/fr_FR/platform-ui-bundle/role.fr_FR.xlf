@@ -169,6 +169,12 @@
         <note>key: role.assign_role_limit_section</note>
         <jms:reference-file line="12">Resources/views/Role/assign_role_by_section.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="3a718931b7236108fa380ba19a963790eaaa7566" resname="role.assigned.to.user">
+        <source>"%name%" role has been assigned to %count% users/groups</source>
+        <target xml:lang="fr" state="translated">Le rôle "%name%" a été attribué à %count% utilisateurs/groupes</target>
+        <note>key: role.assigned.to.user</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-roleserversideviewservice.js</jms:reference-file>
+      </trans-unit>
       <trans-unit id="c8259f57183169ec1b3106c34cda7cc61aaf7386" resname="role.assigned.to.user.section.limited">
         <source>"%name%" role has been assigned to %count% users/groups limited to "%sectionName%" section</source>
         <target xml:lang="fr" state="translated">Le rôle de la « %name% » a été attribué à %count% utilisateurs/groupes limités à la section « %sectionName% »</target>
