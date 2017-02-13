@@ -99,6 +99,12 @@
         <note>key: fielddefinition.max-length.label</note>
         <jms:reference-file line="15">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="c8c3fa9b71c848069950539011a09b45abb1c11f" resname="fielddefinition.max-length.undefined">
+        <source>No defined maximum string length</source>
+        <target xml:lang="fr" state="translated">Aucune longueur maximale maximale définie pour la chaîne</target>
+        <note>key: fielddefinition.max-length.undefined</note>
+        <jms:reference-file line="20">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="9a3d23487e45edf331407c501ead33d70461f9e3" resname="fielddefinition.max-length.value">
         <source>%max% characters</source>
         <target xml:lang="fr" state="translated">%max% caractères</target>
