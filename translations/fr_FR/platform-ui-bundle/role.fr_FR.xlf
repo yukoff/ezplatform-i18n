@@ -139,6 +139,12 @@
         <note>key: role.assign_limit_section.user_or_group.pagetitle</note>
         <jms:reference-file line="19">Resources/views/Role/assign_role_by_section.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="8211a64763ecf5a6a1e5d0e2386357c0bc2e7c89" resname="role.assign_limit_subtree.user_or_group">
+        <source>Assign to users/groups with subtree limitation</source>
+        <target xml:lang="fr" state="translated">Attribuer les limitations de sous-arborescence aux utilisateurs/groupes</target>
+        <note>key: role.assign_limit_subtree.user_or_group</note>
+        <jms:reference-file line="209">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="c8259f57183169ec1b3106c34cda7cc61aaf7386" resname="role.assigned.to.user.section.limited">
         <source>"%name%" role has been assigned to %count% users/groups limited to "%sectionName%" section</source>
         <target xml:lang="fr" state="translated">Le rôle de la « %name% » a été attribué à %count% utilisateurs/groupes limités à la section « %sectionName% »</target>
