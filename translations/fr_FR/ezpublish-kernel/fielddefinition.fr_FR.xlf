@@ -87,6 +87,18 @@
         <note>key: fielddefinition.default-value.undefined</note>
         <jms:reference-file line="339">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="34ced944f5d7159b0597b98279e73be045c0ccd9" resname="fielddefinition.interval.day">
+        <source>%default% %day% day(s)</source>
+        <target xml:lang="fr" state="translated">%default% %day% jour(s)</target>
+        <note>key: fielddefinition.interval.day</note>
+        <jms:reference-file line="79">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4b31f5a6cfde5d347f3ad264daa7db77e704a5e0" resname="fielddefinition.interval.hour">
+        <source>%default% %hour% hour(s)</source>
+        <target xml:lang="fr" state="translated">%default% %hour% heure(s)</target>
+        <note>key: fielddefinition.interval.hour</note>
+        <jms:reference-file line="80">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="fa2595f063cfd4284226372dc99eb3dfbbc36498" resname="fielddefinition.isbn.label">
         <source>Selected ISBN format:</source>
         <target xml:lang="fr" state="translated">Format ISBN sélectionné :</target>
