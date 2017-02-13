@@ -48,9 +48,9 @@
         <note>key: confirmed.remove.versions</note>
         <jms:reference-file>Resources/public/js/views/services/plugins/ez-versionsplugin.js</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e751550d2bffb320256d3934693e4cbe1b9610b5" resname="confirmed.send.to.trash">
+      <trans-unit id="e751550d2bffb320256d3934693e4cbe1b9610b5" resname="confirmed.send.to.trash" approved="yes">
         <source>Are you sure you want to send this content to trash?</source>
-        <target xml:lang="fr" state="translated">Etes-vous sûr de vouloir envoyer ce contenu à la Corbeille ?</target>
+        <target xml:lang="fr">Etes-vous sûr de vouloir envoyer ce contenu à la Corbeille ?</target>
         <note>key: confirmed.send.to.trash</note>
         <jms:reference-file>Resources/public/js/views/services/ez-locationviewviewservice.js</jms:reference-file>
         <alt-trans>
