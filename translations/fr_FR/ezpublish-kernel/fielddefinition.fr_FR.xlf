@@ -99,6 +99,30 @@
         <note>key: fielddefinition.interval.hour</note>
         <jms:reference-file line="80">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="388ff2c36717a410a72060911657dce61108ed3c" resname="fielddefinition.interval.minute">
+        <source>%default% %minute% minute(s)</source>
+        <target xml:lang="fr" state="translated">%default% %minute% minute(s)</target>
+        <note>key: fielddefinition.interval.minute</note>
+        <jms:reference-file line="81">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b93b6a1548ffa873b1ef5a95c727f93d7be2fd0c" resname="fielddefinition.interval.month">
+        <source>%default% %month% month(s)</source>
+        <target xml:lang="fr" state="translated">%default% %month% mois</target>
+        <note>key: fielddefinition.interval.month</note>
+        <jms:reference-file line="78">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c410f54bc82c293dcce4b252928dc4a020ab1705" resname="fielddefinition.interval.second">
+        <source>%default% %second% second(s)</source>
+        <target xml:lang="fr" state="translated">%default% %second% seconde(s)</target>
+        <note>key: fielddefinition.interval.second</note>
+        <jms:reference-file line="82">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c88fa282a777c6f3a778f513fc9e46800ffe0198" resname="fielddefinition.interval.year">
+        <source>%default% %year% year(s)</source>
+        <target xml:lang="fr" state="translated">%default% %year% an(s)</target>
+        <note>key: fielddefinition.interval.year</note>
+        <jms:reference-file line="77">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="fa2595f063cfd4284226372dc99eb3dfbbc36498" resname="fielddefinition.isbn.label">
         <source>Selected ISBN format:</source>
         <target xml:lang="fr" state="translated">Format ISBN sélectionné :</target>
