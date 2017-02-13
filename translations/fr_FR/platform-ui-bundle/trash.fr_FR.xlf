@@ -26,8 +26,17 @@
       </trans-unit>
       <trans-unit id="e472f53d72216a0252d8d8c55c4c565b656201d8" resname="error.emptying.trash">
         <source>An error occurred while emptying the Trash</source>
-        <target xml:lang="fr" state="translated">Une erreur s’est produite lors du vidage la corbeille</target>
+        <target xml:lang="fr" state="translated">Une erreur s’est produite lors du vidage la Corbeille</target>
         <note>key: error.emptying.trash</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-trashviewservice.js</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Une erreur s’est produite lors du vidage la corbeille</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="034c33d9dc24f606046bc88959214744dcb84993" resname="failed.load.content.type" approved="yes">
+        <source>Failed to load trash item Content Type name</source>
+        <target xml:lang="fr">Échec au chargement du nom d'un élement de contenu de la Corbeille</target>
+        <note>key: failed.load.content.type</note>
         <jms:reference-file>Resources/public/js/views/services/ez-trashviewservice.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="161c33f86dcd9d9116d020cbc5566086e8bb4c8c" resname="failed.load.parent.location.path">
@@ -56,9 +65,12 @@
       </trans-unit>
       <trans-unit id="975936b6f9637047ab09d9e23550ee47e44a1308" resname="restoring.trash.items">
         <source>Restoring trash item(s)</source>
-        <target xml:lang="fr" state="translated">Restaurer les éléments de la corbeille</target>
+        <target xml:lang="fr" state="translated">Restaurer les éléments de la Corbeille</target>
         <note>key: restoring.trash.items</note>
         <jms:reference-file>Resources/public/js/views/services/ez-trashviewservice.js</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Restaurer les éléments de la corbeille</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="bdaee6eee47e0c028566b056680e5f7488772428" resname="trash.ancestors">
         <source>Item's ancestors are in Trash</source>
@@ -68,9 +80,12 @@
       </trans-unit>
       <trans-unit id="7883128cdfb813826271abe90b3a1f3190833ce6" resname="trash.empty">
         <source>The trash is empty</source>
-        <target xml:lang="fr" state="translated">La corbeille est vide</target>
+        <target xml:lang="fr" state="translated">La Corbeille est vide</target>
         <note>key: trash.empty</note>
         <jms:reference-file>Resources/public/templates/trash.hbt</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">La corbeille est vide</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="9bedf5469883778a8aac2f2a0daaa7664704069b" resname="trash.header.name">
         <source>Trash</source>
