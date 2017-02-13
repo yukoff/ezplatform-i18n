@@ -24,6 +24,19 @@
         <note>key: hardware</note>
         <jms:reference-file line="3">Resources/views/ez-support-tools/info/hardware.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="47425e4490d1548713efea3b8a6f5d778e4b1766" resname="php">
+        <source>PHP</source>
+        <target xml:lang="fi" state="translated">PHP</target>
+        <note>key: php</note>
+        <jms:reference-file line="3">Resources/views/ez-support-tools/info/php.html.twig</jms:reference-file>
+        <jms:reference-file line="5">Resources/views/ez-support-tools/info/php.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="98c89e1daa8c0a7c472af26752752299ff44ee23" resname="symfony_kernel">
+        <source>Symfony kernel</source>
+        <target xml:lang="fi" state="translated">Symfony kernel (ydin)</target>
+        <note>key: symfony_kernel</note>
+        <jms:reference-file line="3">Resources/views/ez-support-tools/info/symfony_kernel.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="345e6e0c761b74267435f4057f0eb3ef2ae2bc53" resname="system.information">
         <source>System information</source>
         <target xml:lang="fi" state="translated">Järjestelmätiedot</target>
