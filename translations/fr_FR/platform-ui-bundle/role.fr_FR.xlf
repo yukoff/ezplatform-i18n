@@ -125,6 +125,14 @@
         <note>key: role.assign_limit_section.cancel</note>
         <jms:reference-file line="44">Resources/views/Role/assign_role_by_section.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="5b49cc21aa5dcceb12fb90e3664f234694496a10" resname="role.assign_limit_section.user_or_group">
+        <source>Assign to users/groups with section limitation</source>
+        <target xml:lang="fr" state="translated">Attribuer les limitations de section aux utilisateurs/groupes</target>
+        <note>key: role.assign_limit_section.user_or_group</note>
+        <jms:reference-file line="41">Resources/views/Role/assign_role_by_section.html.twig</jms:reference-file>
+        <jms:reference-file line="213">Resources/views/Role/view_role.html.twig</jms:reference-file>
+        <jms:reference-file line="217">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="eebd438037da98a4efa23f2c3d87080e2b40a957" resname="role.assign_limit_section.user_or_group.pagetitle">
         <source>Assign role "%roleIdentifier%" to users/groups with limitation on section</source>
         <target xml:lang="fr" state="translated">Attribuer le rôle « %roleIdentifier% » aux utilisateurs/groupes avec limitation de sections</target>
