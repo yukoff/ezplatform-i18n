@@ -42,6 +42,12 @@
         <note>key: fielddefinition.default-value.current_datetime_adjust_by</note>
         <jms:reference-file line="76">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="baf973c669d404a5aa072edce1d84deaaf936a0f" resname="fielddefinition.default-value.current_time">
+        <source>Current time</source>
+        <target xml:lang="hi" state="translated">वर्तमान समय</target>
+        <note>key: fielddefinition.default-value.current_time</note>
+        <jms:reference-file line="108">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="fa5a2f0bf185c7e872f77b81a24867afb9ef0ec7" resname="fielddefinition.default-value.empty">
         <source>Empty</source>
         <target xml:lang="hi" state="translated">खाली</target>
@@ -49,6 +55,42 @@
         <jms:reference-file line="106">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
         <jms:reference-file line="71">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
         <jms:reference-file line="95">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="34ced944f5d7159b0597b98279e73be045c0ccd9" resname="fielddefinition.interval.day">
+        <source>%default% %day% day(s)</source>
+        <target xml:lang="hi" state="translated">%default% %day% दिन</target>
+        <note>key: fielddefinition.interval.day</note>
+        <jms:reference-file line="79">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4b31f5a6cfde5d347f3ad264daa7db77e704a5e0" resname="fielddefinition.interval.hour">
+        <source>%default% %hour% hour(s)</source>
+        <target xml:lang="hi" state="translated">%default% %hour% घंटे</target>
+        <note>key: fielddefinition.interval.hour</note>
+        <jms:reference-file line="80">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="388ff2c36717a410a72060911657dce61108ed3c" resname="fielddefinition.interval.minute">
+        <source>%default% %minute% minute(s)</source>
+        <target xml:lang="hi" state="translated">%default% %minute% मिनट</target>
+        <note>key: fielddefinition.interval.minute</note>
+        <jms:reference-file line="81">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b93b6a1548ffa873b1ef5a95c727f93d7be2fd0c" resname="fielddefinition.interval.month">
+        <source>%default% %month% month(s)</source>
+        <target xml:lang="hi" state="translated">%default% %month% महिना</target>
+        <note>key: fielddefinition.interval.month</note>
+        <jms:reference-file line="78">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c410f54bc82c293dcce4b252928dc4a020ab1705" resname="fielddefinition.interval.second">
+        <source>%default% %second% second(s)</source>
+        <target xml:lang="hi" state="translated">%default% %second% सेकंड्स</target>
+        <note>key: fielddefinition.interval.second</note>
+        <jms:reference-file line="82">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c88fa282a777c6f3a778f513fc9e46800ffe0198" resname="fielddefinition.interval.year">
+        <source>%default% %year% year(s)</source>
+        <target xml:lang="hi" state="translated">%default% %year% वर्ष</target>
+        <note>key: fielddefinition.interval.year</note>
+        <jms:reference-file line="77">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
     </body>
   </file>
